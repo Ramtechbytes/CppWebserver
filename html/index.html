@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sys Admin Dashboard</title>
+    <link rel="stylesheet" href="https://watercss.kognise.dev/water.min.css">
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-bottom: 2px solid #ddd;
+            text-align: center;
+        }
+        .sidebar {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-right: 2px solid #ddd;
+            height: calc(100vh - 60px);
+            position: fixed;
+            width: 250px;
+            top: 60px;
+            overflow-y: auto;
+        }
+        .main-content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card .content {
+            padding: 15px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-top: 2px solid #ddd;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>System Admin Dashboard</h1>
+    </div>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#users">Users</a></li>
+            <li><a href="#settings">Settings</a></li>
+            <li><a href="#logs">Logs</a></li>
+            <li><a href="#reports">Reports</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div id="dashboard" class="card">
+            <h2>Dashboard</h2>
+            <img src="https://via.placeholder.com/1200x400" alt="Dashboard Image">
+            <div class="content">
+                <p>Welcome to the System Admin Dashboard. Here you can get an overview of the system’s status, recent activities, and key metrics.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+        </div>
+        <div id="users" class="card">
+            <h2>User Management</h2>
+            <img src="https://via.placeholder.com/1200x400" alt="Users Image">
+            <div class="content">
+                <p>Manage users and their permissions. You can add, edit, or remove users as needed.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+        </div>
+        <div id="settings" class="card">
+            <h2>Settings</h2>
+            <img src="https://via.placeholder.com/1200x400" alt="Settings Image">
+            <div class="content">
+                <p>Adjust system settings and preferences. Configure application settings, system preferences, and more.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+        </div>
+        <div id="logs" class="card">
+            <h2>System Logs</h2>
+            <img src="https://via.placeholder.com/1200x400" alt="Logs Image">
+            <div class="content">
+                <p>View system logs to monitor activities and troubleshoot issues. Logs provide detailed information about system events.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+        </div>
+        <div id="reports" class="card">
+            <h2>Reports</h2>
+            <img src="https://via.placeholder.com/1200x400" alt="Reports Image">
+            <div class="content">
+                <p>Generate and view reports on system usage, performance, and other key metrics. Reports help in analyzing trends and making informed decisions.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 System Admin Dashboard. All rights reserved.</p>
+    </div>
+</body>
+</html>
